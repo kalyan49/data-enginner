@@ -1,0 +1,30 @@
+file1:
+code:
+
+import requests
+#connect with fake rest api(search in internet for copying link
+response=requests.get('https://jsonplaceholder.typicode.com/comments')
+print(response)
+if (response.status_code==200):
+   print('connection success')
+else:
+   print('connection fail')
+print(response.text)
+
+
+
+#when i run above code it shows no module name requests
+#go to terminal run pip(package installer) install requests
+#now run above code
+#out put:200(one of status code)standard response for http request
+#403-forbidden,google
+/*using google maps to a swiggy person,it is integrated so when google knows person location it send the further instructions based on that
+need authentication ,if no/wrong authentication google refuses the sending response because lack of authentication it is the 403 error:forbidden
+404:(sever is not connected)server down,cable is not connected to internet*/
+/*open git hub create repository,copy repository(means file) link
+1)git clone https://github.com/kalyan49/data-enginner.git (clone the github repository from vscode):make connection with online repo from local vs code,data online->local system
+2) if you want to commit changes in online(create new file write some code,press commit changes then new file is added to repository(it
+all happens in online)we see readme1.txt in git hub repository but we cant see the readme1 file from local vs code)then what we do:
+code:
+1)git pull
+2)we can make some changes to file and then updated file upload into online(local system->online repo)
