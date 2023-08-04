@@ -25,7 +25,7 @@ need authentication ,if no/wrong authentication google refuses the sending respo
 1)git clone https://github.com/kalyan49/data-enginner.git (clone the github repository from vscode):make connection with online repo from local vs code,data online->local system
 2) if you want to commit changes in online(create new file write some code,press commit changes then new file is added to repository(it
 all happens in online)we see readme1.txt in git hub repository but we cant see the readme1 file from local vs code)then what we do:
-code:
+code:in terminal
 1)git config --global user.name "Sai"
  git config --global user.email saikalyangonuguntla25@gmail.com
  git config credential.username "kalyan49"                     
